@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: ghostwhite;
+  color: #333;
+  font-weight: bold;
+}
+
+header {
+  background-color: darkred; /* Dark blue */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-weight: 4em;
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  background-color: ghostwhite;
+  padding: 10px;
+  text-align: center;
+  height: 140px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1em;
+}
+
+nav a:hover {
+  color: #0b3d91;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+  background-color: darkgray;
+  color: white;
+  font-size: large;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.mainpage section {
+  background-color: whitesmoke;
+  width: 40%;
+  height: 600px;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  line-height: 37px;
+}
+
+.mainpage main {
+  padding: 20px;
+  text-align: center;
+}
+
+.mainpage main h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+   border-radius: 5px;
+   background-color: ghostwhite;
+}
+
+.mainpage h3 {
+
+}
+h3{
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      color: black;
+    }
+
+p {
+  text-align: center;
+}
+
+/* Input Fields */
+.registration-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"],
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.registration-container input[type="text"]:focus,
+.registration-container input[type="email"]:focus,
+.registration-container input[type="password"]:focus {
+  border-color: #0b3d91;
+  outline: none;
+  box-shadow: 0 0 5px rgba(11, 61, 145, 0.2);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #0b3d91;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #07407a;
+}
+
+
+  header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 2px;
+    background-color: darkred;
+    font-weight: bold;
+  }
+
+  header h1 {
+    font-weight: 4em;
+    margin: 0;
+  }
+
+  nav {
+  background-color: ghostwhite;
+  padding: 10px;
+  text-align: center;
+  height: 140px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1em;
+}
+
+nav a:hover {
+  color: #0b3d91;
+}
+
+  h2 {
+    text-align: center;
+    background-color: ghostwhite;
+    font-size: 8em;
+  }
+
+    h3{
+      text-align: center;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    article {
+      text-align: center;
+      background-color: ghostwhite;
+      margin: 0;
+      width: 100%;
+      font-size: xx-large;
+    }
+
+    footer {
+  text-align: center;
+  background-color: darkgray;
+  color: white;
+  font-size: large;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

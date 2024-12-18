@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: ghostwhite;
+            color: #333;
+        }
+
+        header {
+            background-color: darkred;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-weight: 4em;
+            margin: 0;
+        }
+
+        nav {
+            background-color: ghostwhite; /* White background for navbar */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            color: #0b3d91;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2em;
+            margin: 20px 0;
+            background-color: ghostwhite;
+            border-radius: 5px;
+        }
+
+        .contact-form {
+            width: 50%;
+            margin: 0 auto;
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact-form input[type="text"]:focus,
+        .contact-form input[type="email"]:focus,
+        .contact-form textarea:focus {
+            border-color: #0b3d91;
+            outline: none;
+            box-shadow: 0 0 5px rgba(11, 61, 145, 0.2);
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0b3d91;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #07407a;
+        }
+
+        footer {
+            text-align: center;
+            background-color: darkgray;
+            color: white;
+            font-size: large;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body style="background:url('file-TH5DGRBa21o9MK2d4fFSTg (1).webp'); background-size: cover;">
+
+    <header>
+        <h1>Ministry of Sport</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ministry of Sport. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
